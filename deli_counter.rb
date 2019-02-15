@@ -4,7 +4,7 @@ end
 
 def take_a_number(number, name)
   number << name
-  puts ""
+  puts "Welcome"
 end
 
 def now_serving
