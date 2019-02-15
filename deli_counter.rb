@@ -2,8 +2,8 @@ def line
   
 end
 
-def take_a_number(number, name)
-  number << name
+def take_a_number(deli, name)
+  deli << name
   puts "Welcome, #{name}. You are number #{number.length} in line."
 end
 
