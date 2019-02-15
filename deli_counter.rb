@@ -3,7 +3,7 @@ def line(deli, name)
     puts "The line is currently empty."
   else
     current_line = "The line is currently:"
-    deli.each_with_index do |person, position|
+    deli.each_with_index do |person, i|
       current_line << 
 end
 
