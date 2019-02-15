@@ -4,7 +4,7 @@ def line(deli, name)
   else
     current_line = "The line is currently:"
     deli.each_with_index do |person, i|
-      current_line << " #{"
+      current_line << " #{i+1}. #[name"
 end
 
 def take_a_number(deli, name)
