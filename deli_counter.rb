@@ -1,5 +1,5 @@
 def line(deli, name)
-  
+  if 
 end
 
 def take_a_number(deli, name)
